@@ -1,0 +1,131 @@
+.news{
+    display: flex !important;
+    flex-direction: column;
+    position: relative;
+    transition: all ease-in-out;
+}
+.news:hover{
+    color: blue;
+}
+
+.news-main:hover{
+    /* background-color: rgb(135, 134, 134); */
+}
+
+.news-dropdown{
+    width: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    position:absolute;
+    top: 30px;
+    z-index: 20;
+    background: white;
+    visibility: hidden;
+    transition: all ease-in-out;
+}
+.news-dropdown>a{
+    width: 100%;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(202, 202, 202);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    transition: all ease-in-out;
+}
+.news-dropdown>a:hover{
+    background-color: rgb(189, 189, 190);
+}
+
+.news:hover  .news-dropdown{
+    visibility: visible;
+    transition: all ease-in-out;
+}
+
+
+.Events{
+    display: flex !important;
+    flex-direction: column;
+    position: relative;
+}
+.Events:hover{
+    color: blue
+}
+
+.Events-main{
+
+}
+
+.Events-dropdown{
+    width: 120px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    position:absolute;
+    top: 30px;
+    z-index: 20;
+    background: white;
+    visibility: hidden;
+}
+.Events-dropdown>a{
+    width: 100%;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(202, 202, 202);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.Events-dropdown>a:hover{
+    background-color: rgb(189, 189, 190);
+}
+
+.Events:hover  .Events-dropdown{
+    visibility: visible;
+}
+
+
+.Jobs{
+    display: flex !important;
+    flex-direction: column;
+    position: relative;
+}
+.Jobs:hover{
+    color: blue;
+}
+
+.Jobs-main{
+
+}
+
+.Jobs-dropdown{
+    width: 120px;
+    display: flex;
+    flex-flow: column nowrap;
+    text-decoration: none;
+    position:absolute;
+    top: 30px;
+    z-index: 20;
+    background: white;
+    visibility: hidden;
+}
+.Jobs-dropdown>a{
+    width: 100%;
+    padding: 10px ;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid rgb(202, 202, 202);
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+.Jobs-dropdown>a:hover{
+    background-color: rgb(189, 189, 190);
+}
+
+.Jobs:hover  .Jobs-dropdown{
+    visibility: visible;
+}
